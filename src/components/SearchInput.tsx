@@ -16,8 +16,9 @@ const SearchInput = ({ onSearch }: Props) => {
       }}
     >
       <InputGroup>
-        <InputLeftElement children={<FcSearch />} fontSize="1.8rem" />
+        <InputLeftElement children={<FcSearch />} fontSize="2rem" />
         <Input
+          size="lg"
           ref={ref}
           borderRadius={20}
           placeholder="Search games here..."
