@@ -1,8 +1,7 @@
-import React from "react";
+import { Image, ImageProps } from "@chakra-ui/react";
+import topRate from "../assets/good-rate.webp";
 import lowRate from "../assets/low-rate.webp";
 import midRate from "../assets/mid-rate.webp";
-import topRate from "../assets/good-rate.webp";
-import { Image, ImageProps } from "@chakra-ui/react";
 
 interface Props {
   rating: number;
