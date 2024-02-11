@@ -5,7 +5,7 @@ import { FaWindows } from "react-icons/fa";
 import { FcAndroidOs, FcLinux } from "react-icons/fc";
 import { MdOutlinePhoneIphone } from "react-icons/md";
 import { SiApple, SiNintendo, SiPlaystation5, SiXbox } from "react-icons/si";
-import { Platform } from "../hooks/usePlatforms";
+import { Platform } from "../entities/Platform";
 
 interface Props {
   platforms: Platform[];
